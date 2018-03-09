@@ -7,10 +7,11 @@
     <title>wild-acces</title>
   </head>
   <body>
-    <section class="container">
-      <h1 class="row">
-        <p class="col-12">TITRE</p>
+    <header class="container">
+      <h1>
+        TITRE
       </h1>
+      <a class="col-1" href="#">▲</a>  <!-- fleche en position fixed-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,84 +20,94 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="col-6 nav-item active">
-              <a class="nav-link" href="#partie-exterieure">External<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#external-area">External<span class="sr-only">(current)</span></a>
             </li>
             <li class="col-6 nav-item">
-              <a class="nav-link" href="#partie-interieure">Interior</a>
+              <a class="nav-link" href="#internal-area">Internal</a>
             </li>
           </ul>
         </div>
       </nav>
-    </section>  <!-- cloture fieldset container -->
+    </header>
     <hr>
     <section class="container">
-      <h2 id="partie exterieure">External</h2>
+      <h2 id="external-area">External</h2>
         <article class="row">
           <figure class="col-4">
-            <img src="http://via.placeholder.com/150x150" alt="map">
+            <img src="http://via.placeholder.com/150x150?text=MAP" alt="map">
           </figure> 
           <ul class="list-group col-7">
-              <li class="list-group-item active">legend</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item"><a href="#bus">Transportation</a></li>
+              <li class="list-group-item"><a href="#doors">Location</a></li>
+              <li class="list-group-item"><a href="#catering">Catering</a></li>
           </ul>
-          <a class="col-1" href="#"></a>
         </article>
-        <article class="row">
-            <a class="col-1" href="#"></a>
-            <p class="col-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti omnis animi saepe facere. Blanditiis rem voluptatem nobis sequi quidem repellendus facilis consequatur in placeat, nihil recusandae pariatur nulla perspiciatis.
-            </p>
+        <article class="row" id="bus">
           <figure class="col-4">
-            <img src="http://via.placeholder.com/150x150" alt="bus stop">
-          </figure>
-        </article>
-        <article class="row">
-          <figure class="col-4">
-            <img src="http://via.placeholder.com/150x150" alt="bakehouse">
+            <img src="http://via.placeholder.com/150x150?text=Bus" alt="map">
           </figure> 
           <p class="col-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti omnis animi saepe facere. Blanditiis rem voluptatem nobis sequi quidem repellendus facilis consequatur in placeat, nihil recusandae pariatur nulla perspiciatis.
+            For transportation: Bus
           </p>
-          <a class="col-1" href="#"></a>
         </article>
+        <article class="row" id="doors">
+          <figure class="col-4">
+            <img src="http://via.placeholder.com/150x150?text=Gates" alt="map">
+          </figure> 
+          <p class="col-7">
+            For entering: doors
+          </p>
+        </article>
+        <article class="row" id="catering">
+          <figure class="col-4">
+            <img src="http://via.placeholder.com/150x150?text=Catering" alt="map">
+          </figure> 
+          <p class="col-7">
+            For catering: bakery
+          </p>
+        </article>
+    </section>
     <hr>
     <section class="container">
-        <h2 id="partie-interieure">Interior</h2> 
-        <article class="row">
+        <h2 id="internal-area">Internal</h2>
+          <article class="row">
             <figure class="col-4">
-              <img src="http://via.placeholder.com/150x150" alt="map">
+              <img src="http://via.placeholder.com/150x150?text=MAP" alt="map">
             </figure> 
             <ul class="list-group col-7">
-                <li class="list-group-item active">legend</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item"><a href="#cci">CCI</a></li>
+                <li class="list-group-item"><a href="#capsule">La capsule</a></li>
+                <li class="list-group-item"><a href="#wcs">Wild Code School</a></li>
             </ul>
-            <a class="col-1"></a>
           </article>
-          <article class="row">
-              <a class="col-1"></a>
-              <p class="col-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti omnis animi saepe facere. Blanditiis rem voluptatem nobis sequi quidem repellendus facilis consequatur in placeat, nihil recusandae pariatur nulla perspiciatis.
-              </p>
+          <article class="row" id="cci">
             <figure class="col-4">
-              <img src="http://via.placeholder.com/150x150" alt="cci">
-            </figure>
-          </article>
-          <article class="row">
-            <figure class="col-4">
-              <img src="http://via.placeholder.com/150x150" alt="wcs">
+              <img src="http://via.placeholder.com/150x150?text=Bus" alt="map">
             </figure> 
             <p class="col-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti omnis animi saepe facere. Blanditiis rem voluptatem nobis sequi quidem repellendus facilis consequatur in placeat, nihil recusandae pariatur nulla perspiciatis.
+              The host: CCI
             </p>
-            <a class="col-1"></a>
           </article>
+          <article class="row" id="doors">
+            <figure class="col-4">
+              <img src="http://via.placeholder.com/150x150?text=Gates" alt="map">
+            </figure> 
+            <p class="col-7">
+              Some client: &quot;La capsule&quot;
+            </p>
+          </article>
+          <article class="row" id="wcs">
+            <figure class="col-4">
+              <img src="http://via.placeholder.com/150x150?text=Catering" alt="map">
+            </figure> 
+            <p class="col-7">
+              Us: Wild Code School
+            </p>
+          </article>
+      </section>
     <hr>
       </div>
-      <fieldset class="materiel">
+      <section class="materiel">
         <div class="card">
             <h5 class="card-header">Material</h5>
             <div class="card-body">
@@ -123,7 +134,7 @@
               </ul>
             </div>
           </div>
-      </fieldset>
+        </section>
       <footer>
         <div class="container">
           <div class="row">
