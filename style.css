@@ -1,0 +1,49 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+}
+
+.arrowUp {
+    color: black;
+    position: fixed;
+    z-index: 2;
+    right: 5px;
+    top: 40%;
+    font-size: 4em;
+    outline-style: none;
+}
+
+.arrowUp:link {
+    outline-style: none;
+    border-radius: 0.5em;
+}
+
+.arrowUp:visited {
+    outline-style: none;
+    border-radius: 0.5em;
+}
+
+.arrowUp:hover {
+    outline-style: none;
+    border-radius: 0.5em;
+}
+
+.arrowUp:active {
+    outline-style: none;
+    border-radius: 0.5em;
+}
