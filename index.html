@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- ajout bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet"> 
+    <!-- ajout styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ajout icones -->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <title>wild-acces</title>
   </head>
   <body>
@@ -13,9 +18,8 @@
       <h1>
         L'environnement des Développeurs
       </h1>
-      <a class="col-1" href="#">▲</a>  <!-- fleche en position fixed-->
+      <a class="arrowUp" href="#"><i class="fas fa-angle-double-up"></i></a>  <!-- fleche en position fixed-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,9 +39,9 @@
     <section class="container1">
       <h2 id="external-area">Extérieur</h2>
         <article class="row">
-          <figure class="col-xs-12 col-sm-12 col-md-8">
-            <img src="http://via.placeholder.com/350x350?text=MAP" alt="map">
-          </figure> 
+          <figure class="col-xs-12 col-sm-12 col-md-8">  
+            <a href="Image/map.png"> <img class="map" src="Image/map.png" alt="map"></a>  
+          </figure>
           <ul class="list-group col-xs-12 col-sm-12 col-md-4">
               <li class="list-group-item"><a href="#bus">Arrêt de bus Briand</a></li>
               <li class="list-group-item"><a href="#doors">Boulangerie la Panetiere</a></li>
@@ -46,7 +50,7 @@
         </article>
         <article class="row" id="bus"> 
           <figure class="col-xs-12 col-sm-12 col-md-4 order-md-last">
-              <img src="http://via.placeholder.com/150x150?text=Bus" alt="bus">
+              <a href="Image/arretbus.jpg"> <img class="arretbus" src="Image/arretbus.jpg" alt="arretbus"></a> 
           </figure> 
           <p class="col-xs-12 col-sm-12 col-md-8 order-md-first">
            <u><strong>Arrêt Briand</strong></u><strong>> > > >Arrêt Thêatre</strong><br />
