@@ -24,15 +24,12 @@ hr{
 body{
     background-color: rgb(201, 201, 201);
 }
-.container1{
 
-}
 .map
 {
     width: 650px;
     height: 450px;
 }
-
 .arretbus
 {
     width: 350px;
