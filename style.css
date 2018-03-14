@@ -21,13 +21,37 @@ p{
     color: rgb(255, 22, 22);
 }
 
-
 .arretbus
+{
+    width: 300px;
+    height: 200px;
+}
+
+.boulangerie
+{
+    width: 300px;
+    height: 200px;
+}
+
+.carrefour
+{
+    width: 300px;
+    height: 200px;
+}
+
+.mapcci
 {
     width: 350px;
     height: 200px;
 }
+.ccienter
 
+{
+    width: 300px;
+    height: 200px;
+}
+
+<<<<<<< HEAD
 .list-group-item {
     background-color:#F9A02E;
     color: white;
@@ -38,6 +62,18 @@ a {
     color: white;
 }
 
+=======
+.lacapsule
+{
+    width: 150px;
+    height: 100px;
+}
+.wcsenter
+{
+    width: 300px;
+    height: 200px;
+}
+>>>>>>> upstream/develop
 a:link {
     text-decoration: none;
 }
