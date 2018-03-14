@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet"> 
     <title>wild-acces</title>
   </head>
   <body>
     <header class="container">
       <h1>
-        Wild Code School Access
+        L'environnement des Développeurs
       </h1>
       <a class="col-1" href="#">▲</a>  <!-- fleche en position fixed-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -20,10 +22,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="col-6 nav-item active">
-              <a class="nav-link" href="#external-area">External<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#external-area">Extérieur<span class="sr-only">(current)</span></a>
             </li>
             <li class="col-6 nav-item">
-              <a class="nav-link" href="#internal-area">Internal</a>
+              <a class="nav-link" href="#internal-area">Intérieur</a>
             </li>
           </ul>
         </div>
@@ -31,15 +33,15 @@
     </header>
     <hr>
     <section class="container">
-      <h2 id="external-area">External</h2>
+      <h2 id="external-area">Extérieur</h2>
         <article class="row">
           <figure class="col-xs-12 col-sm-12 col-md-8">
             <img src="http://via.placeholder.com/350x350?text=MAP" alt="map">
           </figure> 
           <ul class="list-group col-xs-12 col-sm-12 col-md-4">
-              <li class="list-group-item"><a href="#bus">Transportation</a></li>
-              <li class="list-group-item"><a href="#doors">Location</a></li>
-              <li class="list-group-item"><a href="#catering">Catering</a></li>
+              <li class="list-group-item"><a href="#bus">Arrêt de bus Briand</a></li>
+              <li class="list-group-item"><a href="#doors">Boulangerie la Panetiere</a></li>
+              <li class="list-group-item"><a href="#catering">Carrefour express</a></li>
           </ul>
         </article>
         <article class="row" id="bus"> 
@@ -47,7 +49,12 @@
               <img src="http://via.placeholder.com/150x150?text=Bus" alt="bus">
           </figure> 
           <p class="col-xs-12 col-sm-12 col-md-8 order-md-first">
-            for transportation: Bus          
+           <u><strong>Arrêt Briand</strong></u><strong>> > > >Arrêt Thêatre</strong><br />
+            <span id="L1">Ligne 1 (Boutreaux)</span><br />
+            <span id="L1">Ligne 1 (Croix Blanche)</span><br />
+            <span id="L1">Ligne 1 (Millesime)</span><br />
+            <span id="L3">Ligne 3 (Maurencienne)</span><br />
+            <span id="L5">Ligne 5 (Centre Commercial de Champfleury)</span>
           </p>
         </article>
         <article class="row" id="doors">
@@ -55,7 +62,9 @@
                 <img src="http://via.placeholder.com/150x150?text=Gates" alt="gates">
           </figure> 
           <p class="col-xs-12 col-sm-12 col-md-8">
-            For entering: doors
+            <u><strong>Adresse :</strong></u> 53 rue Cérès, 51100 Reims<br />
+            <u><strong>Horaires :</strong></u> La boulangerie est ouverte du lundi au samedi : de 6h45 à 19h45.<br />
+            <u><strong>Parkings à proximité:</strong></u><br />Parking Forum-Pluche (à 5 min)<br />Parking Royale (à 7 min)<br />Parking Forum-Elus (à 8 min)
           </p>
         </article>
         <article class="row" id="catering">
@@ -63,20 +72,22 @@
                 <img src="http://via.placeholder.com/150x150?text=CATERING" alt="catering">
           </figure> 
           <p class="col-xs-12 col-sm-12 col-md-8 order-md-first">
-            For catering: bakery
+           <u><strong>Adresse :</strong></u> 47 Rue Cérès, 51100 Reims<br />
+           <u><strong>Horaires :</strong></u> Le carrefour express est ouvert du lundi au samedi : de 7h à 23h<br /> 
+           <u><strong>Parkings à proximité:</strong></u><br />Parking Forum-Pluche (à 4 min)<br />Parking Royale (à 6 min)<br />Parking Forum-Elus (à 7 min)
           </p>
         </article>
     </section>
     <hr>
     <section class="container">
-        <h2 id="internal-area">Internal</h2>
+        <h2 id="internal-area">Intérieur</h2>
           <article class="row">
               <figure class="col-xs-12 col-sm-12 col-md-8">
                   <img src="http://via.placeholder.com/350x350?text=MAP" alt="map">
             </figure> 
             <ul class="list-group col-xs-12 col-sm-12 col-md-4">
                 <li class="list-group-item"><a href="#cci">CCI</a></li>
-                <li class="list-group-item"><a href="#capsule">La capsule</a></li>
+                <li class="list-group-item"><a href="#capsule">La Capsule</a></li>
                 <li class="list-group-item"><a href="#wcs">Wild Code School</a></li>
             </ul>
           </article>
@@ -85,7 +96,9 @@
                   <img src="http://via.placeholder.com/150x150?text=CCI" alt="cci">
             </figure> 
             <p class="col-xs-12 col-sm-12 col-md-8 order-md-first">
-              The host: CCI
+              <u><strong>Adresse :</strong></u>5 Rue des Marmouzets, 51000 Reims<br />
+              <u><strong>Horaires :</strong></u>Le CCI est ouvert du lundi au vendredi de 8h-12h 13h-18h<br />
+              <a href="http://www.marne.cci.fr/" target="_blank"><strong> vers le site de la CCI</strong></a>
             </p>
           </article>
           <article class="row" id="capsule">
@@ -93,7 +106,9 @@
                   <img src="http://via.placeholder.com/150x150?text=CAPSULE" alt="capsule">
             </figure> 
             <p class="col-xs-12 col-sm-12 col-md-8">
-              Some client: &quot;La capsule&quot;
+                <u><strong>Adresse :</strong></u>5 Rue des Marmouzets, 51000 Reims<br />
+                <u><strong>Horaires :</strong></u>La Capsule est ouverte du lundi au vendredi de 8h à 18h<br />
+                <a href="http://capsule.reimscoworking.fr/" target="_blank"><strong> vers le site de la Capsule</strong></a>
             </p>
           </article>
           <article class="row" id="wcs">
@@ -101,31 +116,33 @@
                   <img src="http://via.placeholder.com/150x150?text=WCS" alt="wcs">
             </figure> 
             <p class="col-xs-12 col-sm-12 col-md-8 order-md-first">
-              Us: Wild Code School
+                <u><strong>Adresse :</strong></u>28 rue Cérès, 51000 Reims<br />
+                <u><strong>Horaires :</strong></u>La Wild Code School est ouverte du lundi au vendredi de 8h à 18h<br />
+                <a href="https://wildcodeschool.fr/" target="_blank"><strong> vers le site de la Wild Code School</strong></a>
             </p>
           </article>
       </section>
     <hr>
       </div>
       <section class="container">
-        <h2>Material</h2>
+        <h2>Matériel</h2>
             <div class="row">
               <ul class="list-group">
                 <figure class="col-xs-1">
                   <img src="http://via.placeholder.com/50x50?text=WIFI" alt="wifi">
-                  <li class="list-group-item">WIFI access</li>
+                  <li class="list-group-item">Acces point WiFi</li>
                 </figure>
                 <figure class="col-xs-1">
                     <img src="http://via.placeholder.com/50x50?text=HANDICAP" alt="wifi">
-                <li class="list-group-item">Handicap-access</li>
+                <li class="list-group-item">Acces handicapé</li>
                 </figure>
                 <figure class="col-xs-1">
                     <img src="http://via.placeholder.com/50x50?text=KITCHEN" alt="wifi">
-                <li class="list-group-item">Kitchen</li>
+                <li class="list-group-item">Cuisine</li>
                 </figure>
                 <figure class="col-xs-1">
                     <img src="http://via.placeholder.com/50x50?text=RETRO" alt="wifi">
-                <li class="list-group-item">Retro-projector</li>
+                <li class="list-group-item">Retro-projecteur</li>
                 </figure>
               </ul>
             </div>
@@ -137,18 +154,18 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <h3>
                 <strong>
-                  About
+                  A propos
                 </strong>
               </h3>
                 <ul>
                     <li class="group-item">
-                      Linkedin Philippe
+                        <a href="https://www.linkedin.com/in/philippe-tarte-402882136/" target="_blank"><strong> Linkedin Philippe</strong></a>
                     </li>
                     <li class="group-item">
-                      Linkedin Max
+                        <a href="https://www.linkedin.com/in/max-gallois-08112315b/" target="_blank"><strong> Linkedin Max</strong></a>
                     </li>
                     <li class="group-item">
-                      Linkedin Thibaud
+                        <a href="https://www.linkedin.com/in/thibaud-royer-93a7b715a/" target="_blank"><strong> Linkedin Thibaud</strong></a>
                     </li>
                 </ul>
             </div>
@@ -176,10 +193,10 @@
                     </h3>
                     <ul>
                         <li class="group-item">
-                         www.cci.fr
+                            <a href="http://www.marne.cci.fr/" target="_blank"><strong>CCI</strong></a>
                         </li>
                         <li class="group-item">
-                          www.wildcodeschool.fr/
+                            <a href="https://wildcodeschool.fr/" target="_blank"><strong>Wild Code School</strong></a>
                         </li>
                     </ul>
                 </div>
