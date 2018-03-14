@@ -47,3 +47,7 @@ body {
     outline-style: none;
     border-radius: 0.5em;
 }
+
+.navbar {
+    background-color: #FF9300;
+}
