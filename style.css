@@ -1,9 +1,20 @@
 /*style css*/
-.map
-{
-    width: 650px;
-    height: 450px;
-}
+p{
+    text-align: center;
+    }
+    #L1{
+        color: #139913;
+    }
+    #L3{
+        color: rgb(192, 6, 183);
+    }
+    #L5{
+        color: rgb(255, 22, 22);
+    }
+    *{
+        font-family: 'Libre Baskerville', serif;
+    }
+
 
 .arretbus
 {
