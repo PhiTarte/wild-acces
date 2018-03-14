@@ -1,25 +1,41 @@
+@font-face {
+    font-family: alwyn-regular;
+    src: local(alwyn-regular),url(alwyn-regular.ttf)
+}
+
+* {
+    font-family: alwyn-regular;
+}
+
 /*style css*/
 p{
     text-align: center;
-    }
-    #L1{
-        color: #139913;
-    }
-    #L3{
-        color: rgb(192, 6, 183);
-    }
-    #L5{
-        color: rgb(255, 22, 22);
-    }
-    *{
-        font-family: 'Libre Baskerville', serif;
-    }
+}
+#L1{
+    color: #139913;
+}
+#L3{
+    color: rgb(192, 6, 183);
+}
+#L5{
+    color: rgb(255, 22, 22);
+}
 
 
 .arretbus
 {
     width: 350px;
     height: 200px;
+}
+
+.list-group-item {
+    background-color:#F9A02E;
+    color: white;
+}
+
+a {
+    background-color:#F9A02E;
+    color: white;
 }
 
 a:link {
@@ -36,6 +52,16 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+header {
+    background-color:#F9A02E;
+    color: white;
+}
+
+#navbarNav {
+    background-color:#F9A02E;
+    color: white;
 }
 
 body {
@@ -73,5 +99,5 @@ body {
 }
 
 .navbar {
-    background-color: #FF9300;
+    background-color: #F9A02E;
 }
