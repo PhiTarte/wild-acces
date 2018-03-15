@@ -23,7 +23,7 @@ p{
 }
 footer{
     background-color: #7b7b7b;
-    color: rgb(223, 222, 222);
+    color: rgb(255, 199, 96);
 }
 
 .arretbus
@@ -126,5 +126,6 @@ img, footer{
     box-shadow: 12px 12px 12px rgb(61, 61, 61); 
 }
 .google{
-    border: 1px solid rgb(71, 71, 71);
+    border: 2px solid rgb(71, 71, 71);
+    box-shadow: 12px 12px 12px rgb(61, 61, 61); 
 }
