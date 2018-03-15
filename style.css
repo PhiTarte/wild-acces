@@ -7,7 +7,7 @@
     font-family: alwyn-regular;
 }
 hr{
-    background-color: rgba(0, 0, 255, 0.411);
+    background-color: rgb(255, 136, 0);
 }
 /*style css*/
 
@@ -18,20 +18,20 @@ p{
 
 #L1{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #139913;
     border: 1px solid black;
 }
 #L3{
     color: rgb(255, 255, 255);
     background-color: #8700a1;
-    font-size: 20px;
+    font-size: 30px;
     border: 1px solid black;
 }
 #L5{
     color: rgb(255, 255, 255);
     background-color: #ff0000;
-    font-size: 20px;
+    font-size: 30px;
     border: 1px solid black;
 }
 footer{
@@ -204,7 +204,7 @@ img, footer {
     background-color: #F9A02E;
     color : white;
     min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow:  12px 4px 16px rgba(73, 73, 73, 0.555);
     padding: 12px 16px;
     z-index: 1;
     font-size: 20px;
