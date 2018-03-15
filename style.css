@@ -21,6 +21,12 @@ p{
     color: rgb(255, 22, 22);
 }
 
+ article{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
 .arretbus
 {
     width: 300px;
@@ -38,14 +44,11 @@ p{
     width: 300px;
     height: 200px;
 }
-
-.mapcci
-{
-    width: 350px;
+.mapcci  {
+    width: 300px;
     height: 200px;
 }
 .ccienter
-
 {
     width: 300px;
     height: 200px;
