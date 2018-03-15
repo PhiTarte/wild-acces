@@ -39,33 +39,39 @@
     <section class="container">
       <h2 id="external-area">Extérieur</h2>
         <article class="row">
-          <span class="google">
+          <div class="google">
             <figure class="col-12 col-sm-12 col-md-8">  
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1841.3379642521713!2d4.034844486373662!3d49.25659066583591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975b29b4fb1a1%3A0xf41c60bf142ac0d1!2zMjggUnVlIEPDqXLDqHMsIDUxMTAwIFJlaW1z!5e0!3m2!1sfr!2sfr!4v1521036427080" width="650" height="450" frameborder="0" style="border:66" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1841.3379642521713!2d4.034844486373662!3d49.25659066583591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975b29b4fb1a1%3A0xf41c60bf142ac0d1!2zMjggUnVlIEPDqXLDqHMsIDUxMTAwIFJlaW1z!5e0!3m2!1sfr!2sfr!4v1521036427080" width="650" height="450" allowfullscreen></iframe>
             </figure>
-          </span>
+          </div>
           <ul class="list-group col-xs-12 col-sm-12 col-md-4">
-              <li class="list-group-item"><a href="#bus">Arrêt de bus Briand</a></li>
-              <li class="list-group-item"><a href="#doors">Boulangerie la Panetiere</a></li>
-              <li class="list-group-item"><a href="#catering">Carrefour express</a></li>
+              <li class="list-group-item"><a href="#arretbus">Arrêt de bus</a></li>
+              <li class="list-group-item"><a href="#boulangerie">Boulangerie</a></li>
+              <li class="list-group-item"><a href="#carrefour">Carrefour express</a></li>
           </ul>
         </article>
-        <article class="row" id="bus"> 
+        <article class="row" id="arretbus"> 
           <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-              <img class="arretbus" src="Image/arretbus.jpg" alt="arretbus">
+            <div class="dropdown"><span><img class="arretbus" src="Image/arretbus.jpg" alt="arretbus"></span>
+              <div class="dropdown-content">
+                <p>Arrêt de bus</p>
+              </div>
+              </div>
           </figure> 
           <p class="col-12 col-sm-12 col-md-8 order-md-first">
-           <u><strong>Arrêt Briand</strong></u><strong>> > > >Arrêt Thêatre</strong><br />
-            Ligne<span id="L1"> 1 </span>(Boutreaux)<br />
-            Ligne<span id="L1"> 1 </span>(Croix Blanche)<br />
-            Ligne<span id="L1"> 1 </span>(Millesime)<br />
-            Ligne<span id="L3"> 3 </span>(Maurencienne)<br />
-            Ligne<span id="L5"> 5 </span>(Centre Commercial de Champfleury)
+           <u><strong>Arrêt Briand</strong></u><br />
+            Ligne <span id="L1"> 1 </span><br />
+            Ligne <span id="L3"> 3 </span><br />
+            Ligne <span id="L5"> 5 </span>
           </p>
         </article>
-        <article class="row" id="doors">
+        <article class="row" id="boulangerie">
             <figure class="col-12 col-sm-12 col-md-4">
-                <img class="boulangerie" src="Image/boulangerie_ceres.jpeg" alt="boulangerie">
+                <div class="dropdown"><span><img class="boulangerie" src="Image/boulangerie_ceres.jpeg" alt="boulangerie"></span>
+                  <div class="dropdown-content">
+                    <p>Boulangerie</p>
+                  </div>
+                  </div>
           </figure> 
           <p class="col-12 col-sm-12 col-md-8">
             <u><strong>Adresse :</strong></u> 53 rue Cérès, 51100 Reims<br />
@@ -73,9 +79,13 @@
             <u><strong>Parkings à proximité:</strong></u><br />Parking Forum-Pluche (à 5 min)<br />Parking Royale (à 7 min)<br />Parking Forum-Elus (à 8 min)
           </p>
         </article>
-        <article class="row" id="catering">
+        <article class="row" id="carrefour">
             <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-                <img class="carrefour" src="Image/carrefourmarket.jpg" alt="market">
+              <div class="dropdown"><span><img class="carrefour" src="Image/carrefourmarket.jpg" alt="market"></span>
+                <div class="dropdown-content">
+                  <p>&nbsp;Carrefour&nbsp;</p>
+                </div>
+                </div>
           </figure> 
           <p class="col-12 col-sm-12 col-md-8 order-md-first">
            <u><strong>Adresse :</strong></u> 47 Rue Cérès, 51100 Reims<br />
@@ -99,55 +109,71 @@
           </article>
           <article class="row" id="cci">
               <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-                  <img class="ccienter" src="Image/ccienter.jpg" alt="cci">
+                <div class="dropdown"><span><img class="ccienter" src="Image/ccienter.jpg" alt="cci"></span>
+                  <div class="dropdown-content">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;CCI&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  </div>
+                  </div>
             </figure> 
             <p class="col-12 col-sm-12 col-md-8 order-md-first">
               <u><strong>Adresse :</strong></u>5 Rue des Marmouzets, 51000 Reims<br />
               <u><strong>Horaires :</strong></u>Le CCI est ouvert du lundi au vendredi de 8h-12h 13h-18h<br />
-              <a href="http://www.marne.cci.fr/" target="_blank"><strong class="lien"> vers le site de la CCI</strong></a>
+              <a href="http://www.marne.cci.fr/" target="_blank"><strong class="lien"> -Vers le site de la CCI-</strong></a>
             </p>
           </article>
           <article class="row" id="capsule">
               <figure class="col-12 col-sm-12 col-md-4">
-                  <img class="lacapsule" src="Image/lacapsule.png" alt="capsule">
+                <div class="dropdown"><span><img class="lacapsule" src="Image/lacapsule.png" alt="capsule"></span>
+                  <div class="dropdown-content">
+                    <p>&nbsp;&nbsp;Capsule&nbsp;&nbsp;</p>
+                  </div>
+                  </div>
             </figure> 
             <p class="col-12 col-sm-12 col-md-8">
                 <u><strong>Adresse :</strong></u>5 Rue des Marmouzets, 51000 Reims<br />
                 <u><strong>Horaires :</strong></u>La Capsule est ouverte du lundi au vendredi de 8h à 18h<br />
-                <a href="http://capsule.reimscoworking.fr/" target="_blank"><strong class="lien"> vers le site de la Capsule</strong></a>
+                <a href="http://capsule.reimscoworking.fr/" target="_blank"><strong class="lien"> -Vers le site de la Capsule-</strong></a>
             </p>
           </article>
           <article class="row" id="wcs">
               <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-                  <img class="wcsenter" src="Image/wcsenter.jpg" alt="wcs">
+                <div class="dropdown"><span><img class="wcsenter" src="Image/wcsenter.jpg" alt="wcs"></span>
+                  <div class="dropdown-content">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;WCS&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  </div>
+                  </div>
             </figure> 
             <p class="col-12 col-sm-12 col-md-8 order-md-first">
                 <u><strong>Adresse :</strong></u>28 rue Cérès, 51000 Reims<br />
                 <u><strong>Horaires :</strong></u>La Wild Code School est ouverte du lundi au vendredi de 8h à 18h<br />
-                <a href="https://wildcodeschool.fr/" target="_blank"><strong class="lien"> vers le site de la Wild Code School</strong></a>
+                <a href="https://wildcodeschool.fr/" target="_blank"><strong class="lien"> -Vers le site de la Wild Code School-</strong></a>
             </p>
           </article>
       </section>
     <hr>
-      </div>
-      <section class="container">
+      <section class="container" id="materiel">
         <h2>Matériel</h2>
             <div class="row">
               <ul class="list-group">
                 <figure>
-                  <img src="http://via.placeholder.com/50x50?text=WIFI" alt="wifi">
-                  <li class="list-group-item">Acces point WiFi</li>
+                    <i class="fas fa-wifi fa-3x"></i>
+                    <li class="list-group-item">Acces point WiFi</li>
                 </figure>
                 <figure>
+<<<<<<< HEAD
                   <i class="fab fa-accessible-icon"></i>
                 <li class="list-group-item">Acces handicapé</li>
+=======
+                    <i class="fas fa-wheelchair fa-3x"></i>  
+                    <li class="list-group-item">Acces handicapé</li>
+>>>>>>> upstream/develop
                 </figure>
                 <figure>
-                    <img src="http://via.placeholder.com/50x50?text=KITCHEN" alt="wifi">
+                    <i class="fas fa-utensils fa-3x"></i>
                 <li class="list-group-item">Cuisine</li>
                 </figure>
                 <figure>
-                    <img src="http://via.placeholder.com/50x50?text=RETRO" alt="wifi">
+                    <i class="fas fa-video fa-3x"></i>
                 <li class="list-group-item">Retro-projecteur</li>
                 </figure>
               </ul>
