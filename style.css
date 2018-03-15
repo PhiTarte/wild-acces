@@ -37,11 +37,15 @@ footer{
     color: rgb(223, 222, 222);
 }
 
- article{
+article{
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+}
+iframe{
+border-style: none;
+border: 66;
 }
 .arretbus
 {
@@ -173,4 +177,13 @@ img, footer {
 .footer li {
     color : #f2ede7;
     background :  rgb(71, 71, 71);
+}
+#materiel i {
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        padding-left: 30%;
+}
+#materiel .list-group-item {
+    text-align: center;
 }
