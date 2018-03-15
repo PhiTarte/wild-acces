@@ -137,3 +137,7 @@ body {
 .navbar {
     background-color: #F9A02E;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
