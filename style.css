@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: alwyn-regular;
     src: local(alwyn-regular),url(alwyn-regular.ttf)
@@ -19,6 +20,34 @@ p{
 }
 #L5{
     color: rgb(255, 22, 22);
+=======
+p{
+    text-align: center;
+    margin: auto;
+}
+
+#L1{
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #139913;
+    border: 1px solid black;
+}
+#L3{
+    color: rgb(255, 255, 255);
+    background-color: #8700a1;
+    font-size: 20px;
+    border: 1px solid black;
+}
+#L5{
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    font-size: 20px;
+    border: 1px solid black;
+}
+footer{
+    background-color: #7b7b7b;
+    color: rgb(223, 222, 222);
+>>>>>>> 4f4e5be164379c3716ffb676f9098008774673d8
 }
 
  article{
@@ -140,4 +169,17 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     color:white;
+}
+.lien {
+    color: #f9a02e;
+}
+.lien:hover {
+    color: rgb(255, 92, 16);
+}
+img, footer {
+    border: 2px solid rgb(71, 71, 71);
+    box-shadow: 12px 12px 12px rgb(61, 61, 61); 
+}
+.google {
+    border: 1px solid rgb(71, 71, 71);
 }
