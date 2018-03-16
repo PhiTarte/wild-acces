@@ -9,6 +9,7 @@
 hr{
     background-color: rgb(255, 136, 0);
 }
+/*style css*/
 
 p{
     text-align: center;
@@ -42,7 +43,7 @@ article{
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 0px;
+    padding-left: 80px;
 }
 iframe{
 border-style: none;
@@ -186,8 +187,9 @@ img, footer {
         padding-bottom: 5%;
         padding-left: 30%;
 }
-#materiel .list-group-item {
+#materiel  {
     text-align: center;
+    margin-bottom: 3em;
 }
 
 .dropdown {
@@ -212,4 +214,16 @@ img, footer {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.box{
+    border: 1px solid rgb(71, 71, 71);
+    margin-right: 4%;
+    margin-left: 4%;  
+    background-color: #F9A02E;
+}
+i, .icones-legende{
+    color: #ffffff;
+}
+i {
+margin-right: 27%;
 }
