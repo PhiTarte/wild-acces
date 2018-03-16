@@ -16,11 +16,12 @@
     background-color:#F9A02E;
     color: white;
 }
-section a, .arrowUp {
+section a {
     background-color:#F9A02E;
     color: white;
 }
 .arrowUp {
+    color: #F9A02E;
     position: fixed;
     z-index: 2;
     right: 5px;
