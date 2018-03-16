@@ -97,17 +97,19 @@
     <section class="container">
         <h2 id="internal-area">Intérieur</h2>
           <article class="row">
-              <figure class="col-12 col-sm-12 col-md-8">
-                  <img class="mapcci" src="Image/mapcci.jpg" alt="mapcci">
-              </figure>
-            <ul class="list-group col-12 col-sm-12 col-md-4">
+            <figure class="col-12 col-sm-12 col-md-8">
+              <img class="mapcci" src="Image/mapcci.jpg" alt="mapcci">
+              <figcaption>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                  Cliquez pour zoomer
+                </button>
+              </figcaption>
+            </figure>
+            <ul class="list-group col-12 col-sm-12 col-md-4" id="list-internal">
                 <li class="list-group-item"><a href="#cci">CCI</a></li>
                 <li class="list-group-item"><a href="#capsule">La Capsule</a></li>
                 <li class="list-group-item"><a href="#wcs">Wild Code School</a></li>
             </ul>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-          Cliquez pour zoomer
-          </button>
           <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
@@ -166,10 +168,22 @@
         <h2>Matériel</h2>
             <div class="row">
               <ul class="list-group">
-                <li class="list-group-item"><i class="fas fa-wifi fa-3x"></i><div class="icones-legende"> Acces point WiFi</div></li>
-                <li class="list-group-item"><i class="fas fa-wheelchair fa-3x"></i><div class="icones-legende">  Acces handicapé</div></li>
-                <li class="list-group-item"><i class="fas fa-utensils fa-3x"></i><div class="icones-legende"> Cuisine</div></li>
-                <li class="list-group-item"><i class="fas fa-video fa-3x"></i><div class="icones-legende"> Retro-projecteur</div></li>
+                <li class="list-group-item">
+                  <i class="fas fa-wifi fa-3x"></i>
+                  <div class="icones-legende"> Acces point WiFi</div>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-wheelchair fa-3x"></i>
+                  <div class="icones-legende">  Acces handicapé</div>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-utensils fa-3x"></i>
+                  <div class="icones-legende"> Cuisine</div>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-video fa-3x"></i>
+                  <div class="icones-legende"> Retro-projecteur</div>
+                </li>
               </ul>
             </div>
       </section>

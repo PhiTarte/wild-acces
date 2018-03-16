@@ -21,7 +21,6 @@ section a, .arrowUp {
     color: white;
 }
 .arrowUp {
-    color: white;
     position: fixed;
     z-index: 2;
     right: 5px;
@@ -50,18 +49,22 @@ article{
     padding-bottom: 50px;
     padding-left: 80px;
 }
-iframe{
+
+iframe {
 border-style: none;
 border: 60;
 }
+
 .arretbus{
     width: 300px;
     height: 200px;
 }
+
 p{
     text-align: center;
     margin-block-end: auto;    
 }
+
 #L1{
     color: #ffffff;
     font-size: 30px;
