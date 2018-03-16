@@ -21,7 +21,6 @@ section a, .arrowUp {
     color: white;
 }
 .arrowUp {
-    color: white;
     position: fixed;
     z-index: 2;
     right: 5px;
@@ -48,7 +47,7 @@ article{
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 0px;
 }
 iframe{
 border-style: none;
@@ -80,6 +79,10 @@ p{
     font-size: 30px;
     border: 1px solid black;
 }
+iframe{
+    width: 650px;
+    height: 500px;
+}
 .boulangerie{
     width: 300px;
     height: 200px;
@@ -97,10 +100,6 @@ p{
     height: 450px;
 }
 .ccienter{
-    width: 300px;
-    height: 200px;
-}
-.lacapsule{
     width: 300px;
     height: 200px;
 }
