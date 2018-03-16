@@ -35,7 +35,6 @@
         </div>
       </nav>
     </header>
-    <hr>
     <section class="container">
       <h2 id="external-area">Extérieur</h2>
         <article class="row">
@@ -44,7 +43,7 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1841.3379642521713!2d4.034844486373662!3d49.25659066583591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975b29b4fb1a1%3A0xf41c60bf142ac0d1!2zMjggUnVlIEPDqXLDqHMsIDUxMTAwIFJlaW1z!5e0!3m2!1sfr!2sfr!4v1521036427080" width="650" height="450" allowfullscreen></iframe>
             </figure>
           </div>
-          <ul class="list-group col-xs-12 col-sm-12 col-md-4">
+          <ul class="list-group col-12 col-sm-12 col-md-4">
               <li class="list-group-item"><a href="#arretbus">Arrêt de bus</a></li>
               <li class="list-group-item"><a href="#boulangerie">Boulangerie</a></li>
               <li class="list-group-item"><a href="#carrefour">Carrefour express</a></li>
@@ -54,7 +53,7 @@
           <figure class="col-12 col-sm-12 col-md-4 order-md-last">
             <div class="dropdown"><span><img class="arretbus" src="Image/arretbus.jpg" alt="arretbus"></span>
               <div class="dropdown-content">
-                <p>Arrêt de bus</p>
+                <h4>Arrêt de bus</h4>
               </div>
               </div>
           </figure> 
@@ -69,28 +68,28 @@
             <figure class="col-12 col-sm-12 col-md-4">
                 <div class="dropdown"><span><img class="boulangerie" src="Image/boulangerie_ceres.jpeg" alt="boulangerie"></span>
                   <div class="dropdown-content">
-                    <p>Boulangerie</p>
+                    <h4>Boulangerie</h4>
                   </div>
                 </div>
             </figure> 
           <p class="col-12 col-sm-12 col-md-8">
-            <u><strong>Adresse :</strong></u> 53 rue Cérès, 51100 Reims<br />
-            <u><strong>Horaires :</strong></u> La boulangerie est ouverte du lundi au samedi : de 6h45 à 19h45.<br />
-            <u><strong>Parkings à proximité:</strong></u><br />Parking Forum-Pluche (à 5 min)<br />Parking Royale (à 7 min)<br />Parking Forum-Elus (à 8 min)
+            <u><strong>Adresse :</strong></u> 53 rue Cérès, 51100 Reims<br>
+            <u><strong>Horaires :</strong></u> La boulangerie est ouverte du lundi au samedi : de 6h45 à 19h45.<br>
+            <u><strong>Parkings à proximité:</strong></u><br />Parking Forum-Pluche (à 5 min)<br>Parking Royale (à 7 min)<br>Parking Forum-Elus (à 8 min)
           </p>
         </article>
         <article class="row" id="carrefour">
             <figure class="col-12 col-sm-12 col-md-4 order-md-last">
               <div class="dropdown"><span><img class="carrefour" src="Image/carrefourmarket.jpg" alt="market"></span>
                 <div class="dropdown-content">
-                  <p>&nbsp;Carrefour&nbsp;</p>
+                  <h4>Carrefour</h4>
                 </div>
               </div>
             </figure> 
           <p class="col-12 col-sm-12 col-md-8 order-md-first">
-           <u><strong>Adresse :</strong></u> 47 Rue Cérès, 51100 Reims<br />
-           <u><strong>Horaires :</strong></u> Le carrefour express est ouvert du lundi au samedi : de 7h à 23h<br /> 
-           <u><strong>Parkings à proximité:</strong></u><br />Parking Forum-Pluche (à 4 min)<br />Parking Royale (à 6 min)<br />Parking Forum-Elus (à 7 min)
+           <u><strong>Adresse :</strong></u> 47 Rue Cérès, 51100 Reims<br>
+           <u><strong>Horaires :</strong></u> Le carrefour express est ouvert du lundi au samedi : de 7h à 23h<br> 
+           <u><strong>Parkings à proximité:</strong></u><br>Parking Forum-Pluche (à 4 min)<br>Parking Royale (à 6 min)<br>Parking Forum-Elus (à 7 min)
           </p>
         </article>
     </section>
@@ -100,18 +99,30 @@
           <article class="row">
               <figure class="col-12 col-sm-12 col-md-8">
                   <img class="mapcci" src="Image/mapcci.jpg" alt="mapcci">
-            </figure> 
+              </figure>
             <ul class="list-group col-12 col-sm-12 col-md-4">
                 <li class="list-group-item"><a href="#cci">CCI</a></li>
                 <li class="list-group-item"><a href="#capsule">La Capsule</a></li>
                 <li class="list-group-item"><a href="#wcs">Wild Code School</a></li>
             </ul>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Cliquez pour zoomer
+          </button>
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  </button>
+              </div>
+                <img class="mapccizoom" src="Image/mapcci.jpg" alt="mapcci">
+            </div>
+          </div>
           </article>
           <article class="row" id="cci">
               <figure class="col-12 col-sm-12 col-md-4 order-md-last">
                 <div class="dropdown"><span><img class="ccienter" src="Image/ccienter.jpg" alt="cci"></span>
                   <div class="dropdown-content">
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;CCI&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <h4>CCI</h4>
                   </div>
                   </div>
             </figure> 
@@ -125,7 +136,7 @@
               <figure class="col-12 col-sm-12 col-md-4">
                 <div class="dropdown"><span><img class="lacapsule" src="Image/lacapsule.png" alt="capsule"></span>
                   <div class="dropdown-content">
-                    <p>&nbsp;&nbsp;Capsule&nbsp;&nbsp;</p>
+                    <h4>Capsule</h4>
                   </div>
                   </div>
             </figure> 
@@ -139,7 +150,7 @@
               <figure class="col-12 col-sm-12 col-md-4 order-md-last">
                 <div class="dropdown"><span><img class="wcsenter" src="Image/wcsenter.jpg" alt="wcs"></span>
                   <div class="dropdown-content">
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;WCS&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <h4>WCS</h4>
                   </div>
                   </div>
             </figure> 
@@ -174,7 +185,6 @@
               </ul>
             </div>
       </section>
-      <hr>
       <footer>
         <div class="container">
           <div class="row">
@@ -198,7 +208,7 @@
             </div>
               <div class="col-12 col-sm-12 col-md-4">
                 <h3>
-                  <strong>Liens autres projets</strong>
+                  <strong>Team WCS Reims</strong>
                 </h3>
                   <ul>
                       <li class="group-item">
