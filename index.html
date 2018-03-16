@@ -51,7 +51,7 @@
         </article>
         <article class="row" id="arretbus"> 
           <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-            <div class="dropdown"><span><img class="arretbus" src="Image/arretbus.jpg" alt="arretbus"></span>
+            <div class="dropdown"><span><img class="img-fluid arretbus" src="Image/arretbus.jpg" alt="arretbus"></span>
               <div class="dropdown-content">
                 <h4>Arrêt de bus</h4>
               </div>
@@ -66,7 +66,7 @@
         </article>
         <article class="row" id="boulangerie">
             <figure class="col-12 col-sm-12 col-md-6">
-                <div class="dropdown"><span><img class="boulangerie" src="Image/boulangerie_ceres.jpeg" alt="boulangerie"></span>
+                <div class="dropdown"><span><img class="img-fluid boulangerie" src="Image/boulangerie_ceres.jpeg" alt="boulangerie"></span>
                   <div class="dropdown-content">
                     <h4>Boulangerie</h4>
                   </div>
@@ -80,7 +80,7 @@
         </article>
         <article class="row" id="carrefour">
             <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-              <div class="dropdown"><span><img class="carrefour" src="Image/carrefourmarket.jpg" alt="market"></span>
+              <div class="dropdown"><span><img class="img-fluid carrefour" src="Image/carrefourmarket.jpg" alt="market"></span>
                 <div class="dropdown-content">
                   <h4>Carrefour</h4>
                 </div>
@@ -97,30 +97,32 @@
     <section class="container">
         <h2 id="internal-area">Intérieur</h2>
           <article class="row">
-              <figure class="col-12 col-sm-12 col-md-8">
-                  <img class="mapcci" src="Image/mapcci.jpg" alt="mapcci">
-              </figure>
-            <ul class="list-group col-12 col-sm-12 col-md-4">
+            <figure class="col-12 col-sm-12 col-md-8">
+              <img class="img-fluid mapcci" src="Image/mapcci.jpg" alt="mapcci">
+              <figcaption>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                  Cliquez pour zoomer
+                </button>
+              </figcaption>
+            </figure>
+            <ul class="list-group col-12 col-sm-12 col-md-4" id="list-internal">
                 <li class="list-group-item"><a href="#cci">CCI</a></li>
                 <li class="list-group-item"><a href="#capsule">La Capsule</a></li>
                 <li class="list-group-item"><a href="#wcs">Wild Code School</a></li>
             </ul>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-          Cliquez pour zoomer
-          </button>
           <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   </button>
               </div>
-                <img class="mapccizoom" src="Image/mapcci.jpg" alt="mapcci">
+                <img class="img-fluid mapccizoom" src="Image/mapcci.jpg" alt="mapcci">
             </div>
           </div>
           </article>
           <article class="row" id="cci">
               <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-                <div class="dropdown"><span><img class="ccienter" src="Image/ccienter.jpg" alt="cci"></span>
+                <div class="dropdown"><span><img class="img-fluid ccienter" src="Image/ccienter.jpg" alt="cci"></span>
                   <div class="dropdown-content">
                     <h4>CCI</h4>
                   </div>
@@ -148,14 +150,14 @@
           </article>
           <article class="row" id="wcs">
               <figure class="col-12 col-sm-12 col-md-4 order-md-last">
-                <div class="dropdown"><span><img class="wcsenter" src="Image/wcsenter.jpg" alt="wcs"></span>
+                <div class="dropdown"><span><img class="img-fluid wcsenter" src="Image/wcsenter.jpg" alt="wcs"></span>
                   <div class="dropdown-content">
                     <h4>WCS</h4>
                   </div>
                   </div>
             </figure> 
             <p class="col-12 col-sm-12 col-md-8 order-md-first">
-                <u><strong>Adresse :</strong></u>28 rue Cérès, 51000 Reims<br />
+                <u><strong>Adresse :</strong></u>28 rue Cérès, 51000 Reims<br /> Salle Céres <br>
                 <u><strong>Horaires :</strong></u>La Wild Code School est ouverte du lundi au vendredi de 8h à 18h<br />
                 <a href="https://wildcodeschool.fr/" target="_blank"><strong class="lien"> -Vers le site de la Wild Code School-</strong></a>
             </p>

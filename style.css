@@ -16,11 +16,12 @@
     background-color:#F9A02E;
     color: white;
 }
-section a, .arrowUp {
+section a {
     background-color:#F9A02E;
     color: white;
 }
 .arrowUp {
+    color: #F9A02E;
     position: fixed;
     z-index: 2;
     right: 5px;
@@ -49,14 +50,12 @@ article{
     padding-bottom: 50px;
     padding-left: 0px;
 }
-iframe{
-border-style: none;
-border: 60;
-}
+
 .arretbus{
     width: 300px;
     height: 200px;
 }
+
 p{
     text-align: center;
     margin: auto;
@@ -95,7 +94,7 @@ iframe{
     border-style: none;
     border: 66; 
     width: 650px;
-    height: 500px;
+    height: 550px;
 }
 .arretbus
 {
@@ -117,6 +116,10 @@ iframe{
 .mapcci  {
     width: 300px;
     height: 200px;
+}
+.mapccizoom{
+    width: 800px;
+    height: 450px;
 }
 .ccienter
 {
@@ -172,33 +175,6 @@ header {
 body {
     position: relative;
 }
-
-.arrowUp {
-    color: white;
-    position: fixed;
-    z-index: 2;
-    right: 5px;
-    top: 40%;
-    font-size: 4em;
-    outline-style: none;
-}
-
-.arrowUp:link {
-    outline-style: none;
-}
-
-.arrowUp:visited {
-    outline-style: none;
-}
-
-.arrowUp:hover {
-    outline-style: none;
-}
-
-.arrowUp:active {
-    outline-style: none;
-}
-
 .navbar {
     background-color: #F9A02E;
 }
@@ -216,9 +192,7 @@ img, footer {
     border: 2px solid rgb(71, 71, 71);
     box-shadow: 12px 12px 12px rgb(61, 61, 61); 
 }
-.google{
-    box-shadow: 12px 12px 12px rgb(61, 61, 61); 
-}    
+    
 .footer li {
     color : #f2ede7;
     background :  rgb(71, 71, 71);
@@ -266,5 +240,5 @@ i, .icones-legende{
     color: #ffffff;
 }
 i {
-margin-right: 27%;
+    margin-right: 27%;
 }
