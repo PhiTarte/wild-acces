@@ -3,38 +3,246 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- ajout bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet"> 
+    <!-- ajout styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ajout icones -->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <title>wild-acces</title>
   </head>
   <body>
-    <fieldset class="container">
-      <h1 class="row"><p class="col-12">TITRE</p></h1>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>
+    <header class="container">
+      <h1>
+        L'environnement des Développeurs
+      </h1>
+      <a class="arrowUp" href="#"><i class="fas fa-angle-double-up"></i></a>  <!-- fleche en position fixed-->
+      <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="col-6 nav-item active">
-              <a class="nav-link" href="#partie-exterieure">Extérieur<span class="sr-only">(current)</span></a>
+            <li class="col-6 nav-item">
+              <a class="nav-link" href="#external-area">Extérieur</a>
             </li>
             <li class="col-6 nav-item">
-              <a class="nav-link" href="#partie-interieure">Intérieur</a>
+              <a class="nav-link" href="#internal-area">Intérieur</a>
             </li>
           </ul>
         </div>
       </nav>
-      <fieldset class="row">
-        
-      </fieldset> <!-- cloture fieldset row -->
-    </fieldset>  <!-- cloture fieldset container -->
-    <h2 id="partie-exterieure">Extérieure</h1> 
-    <img src="http://via.placeholder.com/150x150" class="rounded float-right" alt="map">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum molestias impedit, earum voluptatum in placeat provident sint similique quidem dolores? Sequi quia neque aliquam est deserunt velit laboriosam quibusdam necessitatibus!</p>
+    </header>
+    <section class="container">
+      
+        <article class="row">
+            <h2 id="external-area">Extérieur</h2>
+          <div class="google">
+            <figure class="col-12 col-sm-12 col-md-8">  
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1841.3379642521713!2d4.034844486373662!3d49.25659066583591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975b29b4fb1a1%3A0xf41c60bf142ac0d1!2zMjggUnVlIEPDqXLDqHMsIDUxMTAwIFJlaW1z!5e0!3m2!1sfr!2sfr!4v1521036427080" allowfullscreen></iframe>
+            </figure>
+          </div>
+          <ul class="list-group col-12 col-sm-12 col-md-4">
+              <li class="list-group-item"><a href="#arretbus">Arrêt de bus</a></li>
+              <li class="list-group-item"><a href="#boulangerie">Boulangerie</a></li>
+              <li class="list-group-item"><a href="#carrefour">Carrefour express</a></li>
+          </ul>
+        </article>
+        <article class="row" id="arretbus"> 
+          <figure class="col-12 col-sm-12 col-md-4 order-md-last">
+            <div class="dropdown"><span><img class="img-fluid arretbus" src="Image/arretbus.jpg" alt="arretbus"></span>
+              <div class="dropdown-content">
+                <h4>Arrêt de bus</h4>
+              </div>
+              </div>
+          </figure> 
+          <p class="col-12 col-sm-12 col-md-8 order-md-first">
+           <u><strong>Arrêt Briand</strong></u><br />
+            <strong>Ligne</strong> <span id="L1"> &nbsp;1&nbsp; </span><br />
+            <strong>Ligne</strong> <span id="L3"> &nbsp;3&nbsp; </span><br />
+            <strong>Ligne</strong> <span id="L5"> &nbsp;5&nbsp; </span>
+          </p>
+        </article>
+        <article class="row" id="boulangerie">
+            <figure class="col-12 col-sm-12 col-md-6">
+                <div class="dropdown"><span><img class="img-fluid boulangerie" src="Image/boulangerie_ceres.jpeg" alt="boulangerie"></span>
+                  <div class="dropdown-content">
+                    <h4>Boulangerie</h4>
+                  </div>
+                </div>
+            </figure> 
+          <p class="col-12 col-sm-12 col-md-6">
+            <u><strong>Adresse :</strong></u> 53 rue Cérès, 51100 Reims<br>
+            <u><strong>Horaires :</strong></u> La boulangerie est ouverte du lundi au samedi : de 6h45 à 19h45.<br>
+            <u><strong>Parkings à proximité:</strong></u><br />Parking Forum-Pluche (à 5 min)<br>Parking Royale (à 7 min)<br>Parking Forum-Elus (à 8 min)
+          </p>
+        </article>
+        <article class="row" id="carrefour">
+            <figure class="col-12 col-sm-12 col-md-4 order-md-last">
+              <div class="dropdown"><span><img class="img-fluid carrefour" src="Image/carrefourmarket.jpg" alt="market"></span>
+                <div class="dropdown-content">
+                  <h4>Carrefour</h4>
+                </div>
+              </div>
+            </figure> 
+          <p class="col-12 col-sm-12 col-md-8 order-md-first">
+           <u><strong>Adresse :</strong></u> 47 Rue Cérès, 51100 Reims<br>
+           <u><strong>Horaires :</strong></u> Le carrefour express est ouvert du lundi au samedi : de 7h à 23h<br> 
+           <u><strong>Parkings à proximité:</strong></u><br>Parking Forum-Pluche (à 4 min)<br>Parking Royale (à 6 min)<br>Parking Forum-Elus (à 7 min)
+          </p>
+        </article>
+    </section>
     <hr>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <section class="container">
+        <h2 id="internal-area">Intérieur</h2>
+          <article class="row">
+            <figure class="col-12 col-sm-12 col-md-8">
+              <img class="img-fluid mapcci" src="Image/mapcci.jpg" alt="mapcci">
+              <figcaption>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                  Cliquez pour zoomer
+                </button>
+              </figcaption>
+            </figure>
+            <ul class="list-group col-12 col-sm-12 col-md-4" id="list-internal">
+                <li class="list-group-item"><a href="#cci">CCI</a></li>
+                <li class="list-group-item"><a href="#capsule">La Capsule</a></li>
+                <li class="list-group-item"><a href="#wcs">Wild Code School</a></li>
+            </ul>
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  </button>
+              </div>
+                <img class="img-fluid mapccizoom" src="Image/mapcci.jpg" alt="mapcci">
+            </div>
+          </div>
+          </article>
+          <article class="row" id="cci">
+              <figure class="col-12 col-sm-12 col-md-4 order-md-last">
+                <div class="dropdown"><span><img class="img-fluid ccienter" src="Image/ccienter.jpg" alt="cci"></span>
+                  <div class="dropdown-content">
+                    <h4>CCI</h4>
+                  </div>
+                  </div>
+            </figure> 
+            <p class="col-12 col-sm-12 col-md-8 order-md-first">
+              <u><strong>Adresse :</strong></u>5 Rue des Marmouzets, 51000 Reims<br />
+              <u><strong>Horaires :</strong></u>Le CCI est ouvert du lundi au vendredi de 8h-12h 13h-18h<br />
+              <a href="http://www.marne.cci.fr/" target="_blank"><strong class="lien"> -Vers le site de la CCI-</strong></a>
+            </p>
+          </article>
+          <article class="row" id="capsule">
+              <figure class="col-12 col-sm-12 col-md-6">
+                <div class="dropdown"><span><img src="Image/lacapsule.png" class="img-fluid"alt="capsule"></span>
+                  <div class="dropdown-content">
+                    <h4>Capsule</h4>
+                  </div>
+                  </div>
+            </figure> 
+            <p class="col-12 col-sm-12 col-md-6">
+                <u><strong>Adresse :</strong></u>5 Rue des Marmouzets, 51000 Reims<br />4éme étage<br>
+                <u><strong>Horaires :</strong></u>La Capsule est ouverte du lundi au vendredi de 8h à 18h<br />
+                <a href="http://capsule.reimscoworking.fr/" target="_blank"><strong class="lien"> -Vers le site de la Capsule-</strong></a>
+            </p>
+          </article>
+          <article class="row" id="wcs">
+              <figure class="col-12 col-sm-12 col-md-4 order-md-last">
+                <div class="dropdown"><span><img class="img-fluid wcsenter" src="Image/wcsenter.jpg" alt="wcs"></span>
+                  <div class="dropdown-content">
+                    <h4>WCS</h4>
+                  </div>
+                  </div>
+            </figure> 
+            <p class="col-12 col-sm-12 col-md-8 order-md-first">
+                <u><strong>Adresse :</strong></u>28 rue Cérès, 51000 Reims<br /> Salle Céres <br>
+                <u><strong>Horaires :</strong></u>La Wild Code School est ouverte du lundi au vendredi de 8h à 18h<br />
+                <a href="https://wildcodeschool.fr/" target="_blank"><strong class="lien"> -Vers le site de la Wild Code School-</strong></a>
+            </p>
+          </article>
+      </section>
+    <hr>
+      <section class="container" id="materiel">
+        <h2>Matériel</h2>
+            <div class="row">
+                  <div class="col-sm-12 col-md-2 box">
+                    <i class="fas fa-wifi fa-3x B"></i>
+                    <div class="icones-legende"> Acces point WiFi</div>
+                </div>
+                  <div class="col-sm-12 col-md-2 box">
+                    <i class="fas fa-wheelchair fa-3x"></i>
+                    <div class="icones-legende">  Acces handicapé</div>
+                </div>
+                  <div class="col-sm-12 col-md-2 box">
+                    <i class="fas fa-utensils fa-3x"></i>
+                    <div class="icones-legende"> Cuisine</div>
+                </div>
+                  <div class="col-sm-12 col-md-2  box">
+                    <i class="fas fa-video fa-3x B"></i>
+                    <div class="icones-legende"> Retro-projecteur</div>
+                </div>
+            </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-4">
+              <h3>
+                <strong>
+                  A propos
+                </strong>
+              </h3>
+                <ul>
+                    <li class="group-item">
+                        <a href="https://www.linkedin.com/in/philippe-tarte-402882136/" target="_blank"><strong class="lien"> Linkedin Philippe</strong></a>
+                    </li>
+                    <li class="group-item">
+                        <a href="https://www.linkedin.com/in/max-gallois-08112315b/" target="_blank"><strong class="lien"> Linkedin Max</strong></a>
+                    </li>
+                    <li class="group-item">
+                        <a href="https://www.linkedin.com/in/thibaud-royer-93a7b715a/" target="_blank"><strong class="lien"> Linkedin Thibaud</strong></a>
+                    </li>
+                </ul>
+            </div>
+              <div class="col-12 col-sm-12 col-md-4">
+                <h3>
+                  <strong>Team WCS Reims</strong>
+                </h3>
+                  <ul>
+                      <li class="group-item">
+                        WCS Reims' book
+                      </li>
+                      <li class="group-item">
+                       Integration Day
+                      </li>
+                      <li class="group-item">
+                        Artezik project
+                      </li>
+                  </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <h3>
+                      <strong>
+                        Contact
+                      </strong>
+                    </h3>
+                    <ul>
+                        <li class="group-item">
+                            <a href="http://www.marne.cci.fr/" target="_blank"><strong class="lien">CCI</strong></a>
+                        </li>
+                        <li class="group-item">
+                            <a href="https://wildcodeschool.fr/" target="_blank"><strong class="lien">Wild Code School</strong></a>
+                        </li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
