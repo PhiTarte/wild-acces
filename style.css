@@ -6,6 +6,11 @@
 * {
     font-family: alwyn-regular;
 }
+
+h1 {
+    text-align: center;
+}
+
 .navbar {
     background-color: #F9A02E;
 }
@@ -49,6 +54,11 @@ article{
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 0px;
+}
+
+.google {
+    margin-top: 5em;
+    left: 0px;
 }
 
 .arretbus{
